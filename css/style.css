@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bg{
+  background-image: url('../assets/img/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu{
+  position: center;
+  color: #FFFFFF;
+  line-height: 30px;
+  padding-top: 15px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.link a{
+  display: flex;
+}
+
+.link {
+  display: flex;
+  margin-top: 39px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.bianco{
+  color: #fff;
+  padding-left: 10px;
+}
+
+.nav{
+  width: 40px;  
+  height: 20px;
+  display: block;
+  margin: 25px;
+}
+
+.nav div{
+  height: 2px;
+  background-color: white;
+  margin: 5px 0px;
+  border-radius: 25px
+}
+
+.nav_bar a:hover{
+  color: rgb(255, 21, 21);
+}
+
+
+
+.hidden{
+  display: none;
+}
+
+.font-size-74px{
+  font-size: 74px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.footer{
+  padding-top: 170px;
+}
+
+#social{
+  width: 220px;
+  display: flex;
+  float: center;
+  margin-top: 20px;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+
+
+.image{
+  width: 15px;
+  height: 15px;
+  margin-left: 17px;
+  margin-right: 17px;
+  margin-top: 20px;
+}
+
+.btn{
+  width: 200px;
+  background: #FFFFFF;
+  height: 30px;
+  position: center;
+  border-color: #FFF;
+  margin-top: 25px;
+}
+
+
+.header{
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
